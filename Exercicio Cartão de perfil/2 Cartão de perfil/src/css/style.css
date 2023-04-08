@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.container {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    align-content: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.cartao * {
+    padding: 10px;
+    text-align: center;
+}
+
+.fotoPerfil {
+    width: 100%;
+}
+
+.fotoPerfil,
+img {
+    width: 40%;
+    border-radius: 100%;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.redesSociais {
+    display: flex;
+    width: 100%;
+    border-top: solid 1px gray;
+    justify-content: space-between;
+
+}
+
+.nome,
+.quantidade {
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.idade,
+.cidade,
+.tipo {
+    font-weight: 400;
+    color: rgb(134, 133, 133);
+    padding-top: 0px;
+}
