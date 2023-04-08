@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
 
-body{
+.container{
     background-color: var(--background-color) ;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 10px 0px;
     height: 100vh;
     font-family: 'Manrope', sans-serif;
+    font-weight: 800;
 }
 
-.container{
+.cartao{
     background-color: var(--advice-card-color) ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     min-width: 280px;
     max-width: 500px;
     margin: 0px 20px;
@@ -28,13 +26,16 @@ hr{
     width: 80%;
 }
 
-.advice p{
+.advice-id p{
     color: var(--advice-dice-color);
     margin-top: 25px;
     text-transform: uppercase;
+    font-size: 15px;
+
 }
 
 .frase p{
+    font-size: 23px;
     margin: 30px 20px;
     text-align: center;
     color: var(--text-color);
@@ -45,7 +46,6 @@ hr{
     width: 60px;
     height: 60px;
     background-color: var(--advice-dice-color);
-    border: none;
     transform: translateY(50%);
 }
 

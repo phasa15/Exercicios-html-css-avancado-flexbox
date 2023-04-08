@@ -2,26 +2,25 @@
 
 
 .container {
-    background-color: aquamarine;
+    background-color: #19A2AE;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
 }
 
 .cartao {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
     justify-content: space-between;
-    background-color: aliceblue;
     align-items: center;
-    align-content: center;
+    background-color: aliceblue;
     width: 330px;
     height: 450px;
     border-radius: 15px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
+
 }
 
 .cartao * {
@@ -35,10 +34,10 @@
 
 .fotoPerfil,
 img {
-    width: 40%;
+    width: 50%;
     border-radius: 100%;
     padding: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .redesSociais {
