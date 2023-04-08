@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pinturas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pinturas .pintura {
+    width: 335px;
+    height: auto;
+    position: relative;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    bottom: 45px;
+    left: 25px;
+    color: #ffffff;
+}
+
+.pinturas .pintura .informacoes .titulo {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.pinturas .pintura .informacoes .subtitulo {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 17px;
+}
